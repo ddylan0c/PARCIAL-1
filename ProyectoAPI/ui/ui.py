@@ -6,7 +6,7 @@ def mostrar_datos(df):
         print("No se encontraron datos para la consulta.")
         return
     
-    columnas_deseadas = ['departamento_nom', 'ciudad_municipio_nom', 'edad', 'tipo', 'estado', 'pais_viajo_1_nom']
+    columnas_deseadas = ['departamento_nom', 'ciudad_municipio_nom', 'edad', 'fuente_tipo_contagio', 'estado', 'pais_viajo_1_nom']
     
     # Itera las columnas en columnas deseadas y comprueba si están en las columnas del dataframe
     # En el caso de estar, añade la columna a la lista
